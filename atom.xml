@@ -10,7 +10,7 @@
  <id>https://thi-vua-lay-tot.github.io/blog/</id>
  <author>
    <name>Đinh Hoàng Việt</name>
-   <email>tom@Thi-Vua-Lay-Tot.com</email>
+   <email>vietblue1403@gmail.com</email>
  </author>
 
  {% for post in site.posts %}
