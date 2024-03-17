@@ -1,91 +1,102 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="vi" lang="vi-vn">
+<html lang="vi">
+
 <head>
-   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title>{{ page.title }}</title>
-   <link rel="icon" href="https://raw.githubusercontent.com/Thi-Vua-Lay-Tot/Thi-Vua-Lay-Tot.github.io/main/images/favicon.ico" type="image/x-icon" />
-   <meta name="author" content="Đinh Hoàng Việt" />
-   <link href="http://feeds.feedburner.com/tom-preston-werner" rel="alternate" title="Đinh Hoàng Việt" type="application/atom+xml" />
-   <meta name="readability-verification" content="QCzSs992GxmRYRKVpPeZ6LE2tS8aYKxsSSQKV8YM"/>
-
-   <!-- syntax highlighting CSS -->
-   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
-
-   <!-- Homepage CSS -->
-   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
-
-   <!-- Typekit -->
-   <script type="text/javascript" src="http://use.typekit.com/jpd0pfm.js"></script>
-   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <title>{{ page.title }}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://thi-vua-lay-tot.github.io/css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="icon" href="https://raw.githubusercontent.com/Thi-Vua-Lay-Tot/Thi-Vua-Lay-Tot.github.io/main/images/favicon.ico" type="image/x-icon">
 </head>
+
 <body>
+    <header class="container">
+        <div class="page-header">
+            <div class="logo">
+                <a href="https://thi-vua-lay-tot.github.io" title="Thí Vua Lấy Tốt"><img src="https://raw.githubusercontent.com/Thi-Vua-Lay-Tot/Thi-Vua-Lay-Tot.github.io/main/images/favicon.ico" title="Thí Vua Lấy Tốt"></a>
+            </div>
+            <ul class="navbar-nav">
+                <li>
+                    <a href="https://thi-vua-lay-tot.github.io" title="Trang chủ TVLT">Trang chủ</a>
+                </li>
+                <li>
+                    <a href="https://thi-vua-lay-tot.github.io/blogs" title="Các bài Blog quan trọng của TVLT">Blogs</a>
+                </li>
+                <li>
+                    <a href="https://thi-vua-lay-tot.github.io/vlogs" title="Các Video quan trọng của TVLT">Vlogs</a>
+                </li>
+                <li>
+                    <a href="https://thi-vua-lay-tot.github.io/webs" title="Social media links">Xã hội</a>
+                </li>
+                <li>
+                    <a href="https://thi-vua-lay-tot.github.io/game" title="Các trò chơi đơn giản">Games</a>
+                </li>
+                <li>
+                    <a href="https://thi-vua-lay-tot.github.io/list" title="Các danh sách/bảng quan trọng">Danh sách</a>
+                </li>
+                <li>
+                    <a href="https://thi-vua-lay-tot.github.io/team" title="Ban cán sự của TVLT">Mods</a>
+                </li>
+            </ul>
+		    <div>
+                <label class="mode">
+                    <input type="checkbox" id="darkModeToggle">
+                    <i id="moon" class="bx bxs-moon" title="Bật/Tắt chế độ tối"></i>
+                    <a href="#top"><i id="back2top" class="bx bxs-to-top" title="Trở lại đầu trang này"></i></a>
+                </label>
+            </div>
+        </div>
+    </header>
 
-<!-- ClickTale Top part -->
-<script type="text/javascript">
-var WRInitTime=(new Date()).getTime();
-</script>
-<!-- ClickTale end of Top part -->
+    <div id="section-page">
+        <div class="container">
+            <div class="masthead-page">
+                {{ content }}
+                <br>
+                <br>
+                <hr>
+            </div>
+        </div>
+    </div>
 
-<header>
-            <nav>
-                <a href="https://Thi-Vua-Lay-Tot.github.io">Trang chủ</a>
-                <a href="https://Thi-Vua-Lay-Tot.github.io/list.html">Các danh sách</a>
-                <a href="https://Thi-Vua-Lay-Tot.github.io/webs.html">Các trang mạng</a>
-                <a href="https://Thi-Vua-Lay-Tot.github.io/blog">Blog</a>
-                <a href="https://Thi-Vua-Lay-Tot.github.io/vlog">Các Video nổi bật</a>
-            </nav>
-</header>
-	<style>
-            footer {
-                background-color: #00FAFF;
-                padding: 5px;
-                margin-left: auto;
-                margin-top: auto;
-                position: fixed;
-                bottom: 0;
-                right: 0;
-                width: 100%;
-            }
-        </style>
-
-  {{ content }}
-
-<footer align="center">
-   <p align="center">
-    <a href="https://www.youtube.com/@TungJohnPlayingChess"><img src="https://img.shields.io/badge/-Youtube-EA4335?style=flat-square&logo=Youtube&logoColor=white" target="_blank"></a>
-    <a href="https://clubs.chess.com/GkQy"> <img src="https://img.shields.io/badge/-Chess.com-11111?logo=chess.com&logoColor=11111" target="_blank"> </a>
-		<a href="https://lichess.org/team/thi-vua-lay-tot-tungjohn-playing-chess"><img src="https://img.shields.io/badge/-Lichess-050505?style=flat-square&logo=Lichess&logoColor=white" target="_blank"></a>
-		<a href="https://lishogi.org/team/thi-vua-lay-tot-tungjohn-playing-shogi"><img src="https://img.shields.io/badge/-Lishogi-050505?style=flat-square&logo=Lishogi&logoColor=white" target="_blank"></a>
-		<a href="https://lidraughts.org/team/thi-vua-lay-quan-tungjohn-playing-draughts"><img src="https://img.shields.io/badge/-Lidraughts-050505?style=flat-square&logo=Lidraughts&logoColor=white" target="_blank"></a>
-		<a href="https://playstrategy.org/team/thi-vua-lay-tot-tungjohn-playing-chess"><img src="https://img.shields.io/badge/-PlayStrategy-050505?style=flat-square&logo=PlayStrategy&logoColor=white" target="_blank"></a>
-		<a href="https://www.facebook.com/TungJohn2005"><img src="https://img.shields.io/badge/-Facebook-00B2FF?style=flat-square&logo=Facebook&logoColor=white" target="_blank"> </a>
-		<a href="https://discord.gg/7vYq2gRCrv"><img src="https://dcbadge.vercel.app/api/server/7vYq2gRCrv?style=flat" target="_blank"> </a>
-  </p>
-</footer>
-
-<p style="position: absolute; top: 0; right: 0; border: 0;"><a href="http://github.com/Thi-Vua-Lay-Tot/blog"><img style="width: 2em; height: auto; vertical-align: middle;" src="https://github.com/fluidicon.png" alt="Rẽ nhánh mã trong Github" /></a><a href="http://github.com/Thi-Vua-Lay-Tot/blog">Rẽ nhánh mã trong Github</a></p>
-
-<!-- ClickTale Bottom part -->
-<div id="ClickTaleDiv" style="display: none;"></div>
-<script type="text/javascript">
-if(document.location.protocol!='https:')
-  document.write(unescape("%3Cscript%20src='http://s.clicktale.net/WRb.js'%20type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-if(typeof ClickTale=='function') ClickTale(206,0.3,"www03");
-</script>
-<!-- ClickTale end of Bottom part -->
-
-<!-- Google Analytics -->
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-6016902-1");
-pageTracker._trackPageview();
-</script>
-<!-- Google Analytics end -->
-
+    <div class="footer">
+        <div class="footer-container">
+            <div>
+                <h3><a href="https://thi-vua-lay-tot.github.io" title="Trang web Thí Vua Lấy Tốt">Thí Vua Lấy Tốt</a></h3>
+                <p><a href="https://thi-vua-lay-tot.github.io/webs" title="Social media links">Các trang mạng</a></p>
+                <p><a href="https://thi-vua-lay-tot.github.io/blogs" title="Các bài Blog quan trọng của TVLT">Các Blog</a></p>
+                <p><a href="https://thi-vua-lay-tot.github.io/vlogs" title="Các Video quan trọng của TVLT">Các Vlog</a></p>
+                <p><a href="https://thi-vua-lay-tot.github.io/game" title="Các trò chơi đơn giản">Các trò chơi đơn gian</a></p>
+                <p><a href="https://thi-vua-lay-tot.github.io/list" title="Các danh sách/bảng quan trọng">Danh sách</a></p>
+                <p><a href="https://thi-vua-lay-tot.github.io/team" title="Ban cán sự của TVLT">Ban cán sự của TVLT</a></p>
+            </div>
+            <div>
+                <h3><a href="https://thi-vua-lay-tot.github.io/webs">Social meadia links</a></h3>
+                <div class="button">
+                    <a href="https://www.youtube.com/@TungJohnPlayingChess" target="_blank" title="Kênh Youtube của TungJohn"><i class="bx bxl-youtube"></i></a>
+                    <a href="https://www.tiktok.com/@tungjohn2005" target="_blank" title="Tài khoản Tiktok của TungJohn"><i class="bx bxl-tiktok"></i></a>
+                    <a href="https://clubs.chess.com/GkQy" target="_blank" title="Câu lạc bộ Thí Vua Lấy Tốt trên Chess.com"><img src="https://images.chesscomfiles.com/uploads/v1/user/33.862d5ff1.160x160o.578dc76c0662.png"></a>
+                    <a href="https://lichess.org/team/thi-vua-lay-tot-tungjohn-playing-chess" target="_blank" title="Đội Thí Vua Lấy Tốt trên Lichess"><img src="https://thi-vua-lay-tot.github.io/images/lichesslogo.png"></a>
+                    </a>
+                    <a href="https://www.facebook.com/TungJohn2005" target="_blank" title="Trang Facebook của TungJohn Playing Chess"><i class="bx bxl-facebook"></i></a></li>
+                    <a href="https://zalo.me/g/zhrwtn779" target="_blank" title="Nhóm chat của Thí Vua Lấy Tốt trên Zalo"><img width="14" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Icon_of_Zalo.svg"></a>
+                    <a href="https://discord.gg/WUhW5Cs9gB" target="_blank" title="Máy chủ Discord của Thí Vua Lấy Tốt"><i class="bx bxl-discord"></i></a>
+                </div>
+            </div>
+            <div>
+                <br><br>
+                <p>Web được xây dựng bởi QTV <a href="https://thi-vua-lay-tot.github.io/team#admins" title="Các quản trị viên">Đinh Hoàng Việt</a>.</p>
+                <p>Mã nguồn trên <a href="https://github.com/Thi-Vua-Lay-Tot/Thi-Vua-Lay-Tot.github.io" title="Mã nguồn của web trên Github"><img class="github-logo" src="https://github.com/fluidicon.png" alt="GitHub Icon"></a></p>
+                <label>
+                    <a href="#top"><i id="back2top" class="bx bxs-to-top" title="Trở lại đầu trang này"></i></a>
+                </label>
+            </div>
+        </div>
+    </div>
+    <script src="https://thi-vua-lay-tot.github.io/js/main.js"></script>
 </body>
+
 </html>
