@@ -10,7 +10,8 @@ Trong các giải đấu của câu lạc bộ TVLT thì việc có cheat là đ
 
 Nghiêm cấm các hành vi vi phạm luật. Mục đích là giúp cho các giải đấu trong câu lạc bộ ổn định, công bằng, không để các cheater lộng hành, giúp mọi người vui vẻ khi chơi giải.
 
-<strong>Lưu ý:</strong> Bạn muốn tham gia thì cần trải qua các bài kiểm tra để chứng tỏ khả năng phát hiện cheat của bạn.Do đó , bạn cần có trình độ để có thể vô đội.
+<strong>Lưu ý:</strong> Bạn muốn tham gia thì cần trải qua các bài kiểm tra để chứng tỏ khả năng phát hiện cheat của bạn. Do đó, bạn cần có trình độ để có thể vô đội.
 
-Nếu bạn muốn gia nhập thì hãy điền vào biểu mẫu sau: https://forms.gle/d6UohpVscxycZtDVA
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfQYDpwoH8HVz-kPWFiK_iZ06GiWGp1ccVmUm_TH_tnKlFQtA/viewform?embedded=true" width="640" height="1797" frameborder="0" marginheight="0" marginwidth="0">Đang tải…</iframe>
+Nếu bạn muốn gia nhập thì hãy điền vào biểu mẫu sau: <a href="https://forms.gle/d6UohpVscxycZtDVA">https://forms.gle/d6UohpVscxycZtDVA</a>
+
+<p align="center"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfQYDpwoH8HVz-kPWFiK_iZ06GiWGp1ccVmUm_TH_tnKlFQtA/viewform?embedded=true" width="1403" height="2009" frameborder="0" marginheight="0" marginwidth="0">Đang tải…</iframe></p>
