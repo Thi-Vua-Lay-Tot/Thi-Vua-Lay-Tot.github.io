@@ -10,6 +10,11 @@ title: TVLT Blog
                     <li><span>Tháng 11/2023</span> &raquo; <a href="https://www.facebook.com/TungJohn2005/posts/pfbid06Cp6xKemGgbUU5UBPwJ1AtUeEVbACzRzuNwv8fkU57ZgyiKpmvab34CCtj6voQvGl" target="_blank" title="Nhấn vào để đọc bài này trên Facebook.">Mua bộ cờ vua tại shop của TungJohn (Đang sản xuất)</a></li>
                 </ol>
             </div>
+            <ul class="posts">
+                {% for post in site.posts %}
+                  <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% endfor %}
+            </ul>
             <div id="admins">
                 <h1><a href="#admins">Các bài của các Quản Trị Viên</a></h1>
                 <ol class="posts">
