@@ -4,10 +4,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Đinh Hoàng Việt</title>
- <link href="https://thi-vua-lay-tot.github.io/blog/atom.xml" rel="self"/>
- <link href="https://thi-vua-lay-tot.github.io/blog/"/>
+ <link href="https://thivualaytot.github.io/blog/atom.xml" rel="self"/>
+ <link href="https://thivualaytot.github.io/blog/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>https://thi-vua-lay-tot.github.io/blog/</id>
+ <id>https://thivualaytot.github.io/blog/</id>
  <author>
    <name>Đinh Hoàng Việt</name>
    <email>vietblue1403@gmail.com</email>
@@ -16,9 +16,9 @@
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="https://thi-vua-lay-tot.github.io/blog{{ post.url }}"/>
+   <link href="https://thivualaytot.github.io/blog{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>https://thi-vua-lay-tot.github.io/blog{{ post.id }}</id>
+   <id>https://thivualaytot.github.io/blog{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
